@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic__home"
+            android:title="Home" />
+        <item
+            android:id="@+id/myOrder"
+            android:icon="@drawable/ic_shopping_bag"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_category"
+            android:title="Category" />
+        <item
+            android:id="@+id/membership"
+            android:icon="@drawable/ic_membership"
+            android:title="Membership" />
+        <item
+            android:id="@+id/frameSize"
+            android:icon="@drawable/just_glass"
+            android:title="Check frame size" />
+        <item
+            android:id="@+id/eyeTest"
+            android:icon="@drawable/ic_eye_test"
+            android:title="Eye test"/>
+
+    </group>
+
+    <item android:title="My Account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/logIn"
+                    android:icon="@drawable/ic_person"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/ic_login"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Contanct us">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/aboutUs"
+                    android:icon="@drawable/ic_double_arrow"
+                    android:title="About us" />
+                <item
+                    android:id="@+id/faq"
+                    android:icon="@drawable/ic_faq"
+                    android:title="FAQs" />
+                <item
+                    android:id="@+id/rateUS"
+                    android:icon="@drawable/ic_rate"
+                    android:title="Rate us" />
+            </group>
+        </menu>
+    </item>
+</menu>
