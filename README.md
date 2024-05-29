@@ -31,11 +31,11 @@ To install and run the EyeWear app on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/eyewear-app.git
+   git clone https://github.com/your-username/EyeWear.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd eyewear-app
+   cd EyeWear
    ```
 3. Install dependencies:
    ```bash
